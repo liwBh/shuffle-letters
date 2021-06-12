@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <title>Shuffle Letters</title>
+  </head>
+  <body>
+    <!-- elemento de pruebas -->
+
+    <!-- Texto fijo -->
+    <h1 id="texto" class="display-5 mt-5 text-center bg-dark text-white">Latigo k9</h1>
+
+    <!-- entrada de texto -->
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-center mt-5">
+        <input
+          type="text"
+          name="textoInput"
+          id="textoInput"
+          placeholder="Ingrese un texto..."
+          class="form-control w-50"
+        />
+      </div>
+
+      <div id="contendorTexto" class="text-success display-6 text-center mt-5">
+
+      </div>
+    </div>
+
+    <!-- carrousel de texto -->
+    <div class="container d-flex align-items-center justify-content-center mt-5" id="carrousel">
+      
+    </div>
+    <!-- js jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- js que permite agregar animacion -->
+    <script src="jquery.shuffleLetters.js"></script>
+
+    <!-- js para personalizar -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
